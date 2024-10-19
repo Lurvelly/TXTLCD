@@ -1,0 +1,23 @@
+<launch>
+
+    <param name="mapviz_filter_size" type="double" value="0.2"/>
+
+    <!-- input from FASTLIO2 -->
+    <!-- <remap from="/aft_mapped_to_init" to="/Odometry"/>
+    <remap from="/velodyne_cloud_registered_local" to="/cloud_registered_lidar"/> -->
+
+    <!-- utils -->
+    <param name="save_directory" type="string" value="/home/jin/ntu/slam/fast_lio_slam_ws/src/FAST_LIO_SLAM/data/"/>  <!-- CHANGE THIS and end with / -->
+
+    <param name="yaml_file" type="string" value="$(find text_lcd)/config/config.yaml" />
+
+    <!-- nodes -->
+    <node pkg="text_lcd" type="text_lcd" name="text_lcd" output="screen" />
+
+    <!-- visulaization -->
+    <arg name="rvizscpgo" default="true" />
+    <group if="$(arg rvizscpgo)">
+        <node launch-prefix="nice" pkg="rviz" type="rviz" name="rvizscpgo" args="-d $(find text_lcd)/rviz_cfg/text_lcd.rviz" />
+    </group>
+
+</launch>

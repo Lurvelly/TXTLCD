@@ -1,0 +1,4 @@
+string destination
+int32 optimized
+---
+bool success
