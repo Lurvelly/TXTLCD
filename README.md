@@ -1,7 +1,7 @@
 # TEXT_LCD
 
 ## News
--  ``Oct 2024``: Initial commit for public release. If you have any questions, feel free to open an issue.
+-  ``Oct 22, 2024``: Add arXiv link. If you have any questions, feel free to open an issue.
 
 ## What is TEXT_LCD?
 This repository is the implementation of "**Robust Loop Closure by Textual Cues in Challenging Environments**".
@@ -11,6 +11,8 @@ This repository is the implementation of "**Robust Loop Closure by Textual Cues 
 
 Loop closure is an important task in robot navigation. However, existing methods mostly rely on some implicit or heuristic features of the environment, which can still fail to work in common environments such as corridors, tunnels, and warehouses. Indeed, navigating in such featureless, degenerative, and repetitive (FDR) environments would also pose a significant challenge even for humans, but explicit text cues in the surroundings often provide the best assistance.
 This inspires us to propose a multi-modal loop closure method based on explicit human-readable textual cues in FDR environments. Specifically, our approach first extracts scene text entities based on Optical Character Recognition (OCR), then creates a local map of text cues based on accurate LiDAR odometry and finally identifies loop closure events by a graph-theoretic scheme. Experiment results demonstrate that this approach has superior performance over existing methods that rely solely on visual and LiDAR sensors. 
+
+[Full paper](https://arxiv.org/abs/2410.15869) is now accessible.
 
 Introduction video can be found in Youtube by clicking [here](https://youtu.be/a4xjhLMNme8)
 
@@ -36,7 +38,7 @@ The ground truth poses files are in the format:
 timestamp R11 R12 R13 tx R21 R22 R23 ty R31 R32 R33 tz
 ``` 
 
-- Docker
+- OCR Docker
  
 This docker is based on [AttentionOCR](https://github.com/zhang0jhon/AttentionOCR.git). We have installed a ROS in the docker, nodes in host PC and docker communicate by ROS master-slave scheme, you may have to configure the `/etc/hosts` and `.bashrc` file in docker according to your PC.
 
