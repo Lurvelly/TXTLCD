@@ -3,12 +3,18 @@
 ## News
 -  ``Oct 22, 2024``: Add arXiv link. If you have any questions, feel free to open an issue.
 
-📄 [Paper](https://arxiv.org/abs/2410.15869) &emsp;
+<!-- 📄 [Paper](https://arxiv.org/abs/2410.15869) &emsp;
 | &emsp;
 ⬇️ [Dataset](https://entuedu-my.sharepoint.com/:f:/g/personal/tongxing_jin_staff_main_ntu_edu_sg/Evw69kock4JBqy7G6DA_kDcBBKH-2je-iEY4tBfLOIYezw?e=rsFbPK) &emsp;
 |&emsp;
-🎥 [Demo](https://youtu.be/a4xjhLMNme8)
- 
+🎥 [Demo](https://youtu.be/a4xjhLMNme8) -->
+
+<a href="https://arxiv.org/abs/2410.15869"><img src="https://img.shields.io/badge/arXiv-2410.15869-b31b1b.svg?style=flat-square" alt="arXiv" /></a>&emsp;
+<a href="https://entuedu-my.sharepoint.com/:f:/g/personal/tongxing_jin_staff_main_ntu_edu_sg/Evw69kock4JBqy7G6DA_kDcBBKH-2je-iEY4tBfLOIYezw?e=rsFbPK"><img src="https://img.shields.io/badge/Dataset_Download-brightgreen" alt="Download" /></a>&emsp;
+<a href="https://youtu.be/a4xjhLMNme8"><img src="https://badges.aleen42.com/src/youtube.svg" alt="YouTube" /></a>
+
+
+
 ```
 @misc{jin2024robustloopclosuretextual,
       title={Robust Loop Closure by Textual Cues in Challenging Environments}, 
