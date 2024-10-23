@@ -3,6 +3,24 @@
 ## News
 -  ``Oct 22, 2024``: Add arXiv link. If you have any questions, feel free to open an issue.
 
+📄 [Paper](https://arxiv.org/abs/2410.15869) &emsp;
+| &emsp;
+⬇️ [Dataset](https://entuedu-my.sharepoint.com/:f:/g/personal/tongxing_jin_staff_main_ntu_edu_sg/Evw69kock4JBqy7G6DA_kDcBBKH-2je-iEY4tBfLOIYezw?e=rsFbPK) &emsp;
+|&emsp;
+🎥 [Demo](https://youtu.be/a4xjhLMNme8)
+ 
+```
+@misc{jin2024robustloopclosuretextual,
+      title={Robust Loop Closure by Textual Cues in Challenging Environments}, 
+      author={Tongxing Jin and Thien-Minh Nguyen and Xinhang Xu and Yizhuo Yang and Shenghai Yuan and Jianping Li and Lihua Xie},
+      year={2024},
+      eprint={2410.15869},
+      archivePrefix={arXiv},
+      primaryClass={cs.RO},
+      url={https://arxiv.org/abs/2410.15869}, 
+}
+```
+
 ## What is TEXT_LCD?
 This repository is the implementation of "**Robust Loop Closure by Textual Cues in Challenging Environments**".
 
@@ -14,7 +32,7 @@ This inspires us to propose a multi-modal loop closure method based on explicit 
 
 [Full paper](https://arxiv.org/abs/2410.15869) is now accessible.
 
-Introduction video can be found in Youtube by clicking [here](https://youtu.be/a4xjhLMNme8)
+Introduction video can be found in Youtube by clicking [here](https://youtu.be/a4xjhLMNme8).
 
 ## Pipeline
 This implementation has integrated our proposed loop closure detection method with front-end module fast-lio2 and OCR module AttentionOCR into a feature-complete and ready-to-use system.  
